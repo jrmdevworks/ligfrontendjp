@@ -83,7 +83,7 @@ body{
 .text-bold{font-weight:bold;}
 .text-right{text-align:right;}
 .pos-rel{position: relative;}
-.pos-abs-right{ position: absolute; right:20px; top:15px;}
+.pos-abs-right{ position: absolute; right:20px; top:20px;}
 h1.title{font-size:34px; line-height:normal; padding:0px 0px 10px 0px; margin-top:0px; border-bottom:1px solid #000000; }
 
 a.btn-black{color:#FFFFFF; text-decoration:none; display:block; background-color:#333333; width:auto; height:auto; padding:12px 0px 12px 0px; text-align:center; line-height:normal; font-size:16px; font-weight:500; margin:0 20% 0 20%;}
