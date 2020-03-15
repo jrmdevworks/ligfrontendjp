@@ -29,7 +29,7 @@ body{
 	.body-container a:hover {color:#FF0000; text-decoration:underline;}
 	
 .content-wrapper{ width:740px; height:auto; float:left; text-align:left; padding-bottom:40px;}
-	.content-wrapper .container{width:690px;}
+	.content-wrapper .container{width:690px; font-size: 16px;}
 	.content-wrapper ul.list{padding:0px; margin:0px 0px 0px 0px; list-style-type:none; line-height:normal; display:block; clear:both;}
 	.content-wrapper ul.list li{padding:0px; margin:0px; display:block; line-height:normal; clear:both;}
 	.content-wrapper ul.list li a{color:#000000; text-decoration:none; line-height: 14px;}
