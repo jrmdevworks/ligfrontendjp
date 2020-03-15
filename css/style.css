@@ -8,7 +8,7 @@ body{
 	height:auto; 
 	margin:0; 
 	padding:0; 
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	font-size:14px; 
 	color:#333333; 
 	line-height:22px;
@@ -32,12 +32,16 @@ body{
 	.content-wrapper .container{width:690px;}
 	.content-wrapper ul.list{padding:0px; margin:0px 0px 0px 0px; list-style-type:none; line-height:normal; display:block; clear:both;}
 	.content-wrapper ul.list li{padding:0px; margin:0px; display:block; line-height:normal; clear:both;}
-	.content-wrapper ul.list li a{color:#333333; text-decoration:none;}
+	.content-wrapper ul.list li a{color:#000000; text-decoration:none; line-height: 14px;}
 	.content-wrapper ul.list li a:hover{color:#E6BB30; text-decoration:none;}
+	.content-wrapper ul.list li a:hover .description{color:#000000;}
 	.content-wrapper ul.list li div.thumb{ float:left; width:206px; height:auto; text-align:left;}
 	.content-wrapper ul.list li div.text{ float:right; width:470px; height:auto; text-align:left; padding-left:14px;}
-	.content-wrapper ul.list li div.text span{ display:block; color:#AFAFAF; font-size:12px; padding-bottom:10px;}	
+	.content-wrapper ul.list li div.text span{ display:block; color:#aaa; font-size:12px; padding-bottom:10px; font-weight: 500;}		
 	.content-wrapper ul.list li div.text p{ padding:0px 0px 15px 0px; margin:0px;}
+	.content-wrapper ul.list li .title{ font-size: 16px; font-family: YuGothicBold; line-height: 16px;}
+	.content-wrapper ul.list li .description{font-size: 13px; font-family: YuGothicLight; line-height: 14px;}
+	.content-wrapper ul.list li .description:hover{color:#333333;}
 	.content-wrapper ul.list li .list-spacer{ width:auto; height:38px; line-height:normal; clear:both;}
 
 .sidebar{ width:340px; height:auto; float:right; text-align:left; background-color:#EFEFEF; padding-bottom:40px;}		
@@ -52,12 +56,12 @@ body{
 	.sidebar .container{width:300px; height:auto; margin:20px auto 0 auto; text-align:left;}
 	.sidebar .container h1{margin:0px; padding:0px; text-align:center; color:#000000; border-bottom:1px solid #000000; height:32px; line-height:25px; font-size:20px; letter-spacing:2px;}
 
-	.sidebar ul.list{padding:0px; margin:20px 0px 0px 0px; list-style-type:none; line-height:normal; display:block;}
+	.sidebar ul.list{padding:0px; margin:20px 0px 0px 0px; list-style-type:none; line-height:normal; display:block; font-family: YuGothicBold;}
 	.sidebar ul.list li{padding:0px; margin:0px; display:block; line-height:normal; clear:both;}
 	.sidebar ul.list li a{color:#333333; text-decoration:none;}
 	.sidebar ul.list li a:hover{color:#E6BB30; text-decoration:none;}
 	.sidebar ul.list li div.thumb{ float:left; width:112px; height:auto; text-align:left;}
-	.sidebar ul.list li div.text{ float:right; width:180px; height:auto; text-align:left; padding-left:8px;}
+	.sidebar ul.list li div.text{ float:right; width:183px; height:auto; text-align:left; padding-left:5px; font-size: 13px; line-height: 14px;}
 	.sidebar ul.list li div.text span{ display:block; color:#AFAFAF; font-size:12px; padding-top:5px;}			
 
 /***Footer***/
